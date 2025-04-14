@@ -53,6 +53,20 @@
     "auto_redirect": true
   },
   {
+      "type": "shadowsocks",
+      "tag": "home",
+      "listen": "::",
+      "listen_port": 7788,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "3cibEgDtVcuA6JxbLoly9IietcpMD5mt",
+      "multiplex": {
+        "enabled": true,
+        "padding": true
+      }
+    },
+  {
     "tag": "mixed-in",
     "type": "mixed",
     "listen": "0.0.0.0",
