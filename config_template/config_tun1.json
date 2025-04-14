@@ -61,12 +61,12 @@
       "sniff_override_destination": true,
       "method": "2022-blake3-aes-256-gcm",
       "password": "K1PxgcENk5M6UwySypvpIdAQbeIgQuqXMynA/OKwnwM=",
-"destinations": [
+     "destinations": [
     {
-      "name": "homet",
-      "server": "9174110.xyz",
-      "server_port": 7789,
-      "password": "Sn2vY7CM383LpJBJW8gR"
+       "name": "homet",
+       "server": "9174110.xyz",
+       "server_port": 7789,
+       "password": "Sn2vY7CM383LpJBJW8gR"
     }
   ],
       "multiplex": {
