@@ -54,18 +54,26 @@
   },
   {
       "type": "shadowsocks",
-      "tag": "home",
+      "tag": "ss-in",
       "listen": "::",
-      "listen_port": 7789,
+      "listen_port": 7788,
       "sniff": true,
       "sniff_override_destination": true,
       "method": "2022-blake3-aes-256-gcm",
       "password": "K1PxgcENk5M6UwySypvpIdAQbeIgQuqXMynA/OKwnwM=",
+"destinations": [
+    {
+      "name": "homet",
+      "server": "9174110.xyz",
+      "server_port": 7789,
+      "password": "Sn2vY7CM383LpJBJW8gR"
+    }
+  ],
       "multiplex": {
         "enabled": true,
         "padding": true
-      }
-    },
+    }
+ },
   {
     "tag": "mixed-in",
     "type": "mixed",
