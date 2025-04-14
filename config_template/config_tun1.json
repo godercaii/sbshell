@@ -60,7 +60,7 @@
       "sniff": true,
       "sniff_override_destination": true,
       "method": "2022-blake3-aes-256-gcm",
-      "password": "3cibEgDtVcuA6JxbLoly9IietcpMD5mt",
+      "password": "K1PxgcENk5M6UwySypvpIdAQbeIgQuqXMynA/OKwnwM=",
       "multiplex": {
         "enabled": true,
         "padding": true
